@@ -235,7 +235,7 @@ const ProductPager = () => {
                   <div className='product-info-container'>
                     <div className="product-info">
                       <h4>{prod.brand}</h4>
-                      <p>{prod.model_name} — {prod.product_type}</p>
+                      <p>{prod.model_name} -- {prod.product_type}</p>
                     </div>
                     <div className="cart-icon-container" onClick={(e) => { e.stopPropagation(); handleAddToCart(prod); }}>
                       <div className="cart-with-plus">
